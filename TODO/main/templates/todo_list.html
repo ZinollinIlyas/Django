@@ -1,0 +1,32 @@
+{% extends 'wrapper.html' %}
+
+{% block content %}
+    <div class="todos">
+        <div class="add-task">
+            <a href="#">Add Task</a>
+        </div>
+        <div class="todo-logo">
+            <h1>Tasks in "List 1"</h1>
+        </div>
+        <div class="task-labels">
+            <p>Task</p>
+            <p>Created</p>
+            <p>Due on</p>
+            <p>Owner</p>
+            <p>Mark</p>
+        </div>
+        {% for task in tasks %}
+             <div class="tasks">
+                <p>{{ task.name }}</p>
+                <p>{{ task.created }}</p>
+                <p>{{ task.due }}</p>
+                <p>{{ task.owner }}</p>
+                <p>{{ task.mark }}</p>
+            </div>
+        {% endfor %}
+        <div class="task-action">
+            <a href="">View completed tasks</a>
+            <a href="">Delete this list</a>
+        </div>
+    </div>
+{% endblock %}
