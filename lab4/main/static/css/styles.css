@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+}
+.page{
+    padding: 100px 0 0 0;
+}
+.header{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    padding: 25px 0;
+    background-color: #2F2D2D;
+}
+.header p{
+    margin: 0;
+    color: white;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 15;
+}
+
+.main-header{
+    text-align: center;
+    margin-top: 50px;
+}
+.see-todo-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    text-decoration: none;
+    color: darkgreen;
+    transition: .4s ease-in-out;
+}
+.see-todo-list:hover{
+    color: black;
+}
+.add-task{
+    padding: 25px 0;
+    border-bottom: 1px solid grey;
+}
+.add-task a{
+    text-decoration: none;
+    color: white;
+    padding: 7px 15px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+    transition: .4s ease-in-out;
+}
+.add-task a:hover{
+    background-color: black;
+}
+.todo-logo{
+    padding: 5px 0;
+    border-bottom: 1px solid grey;
+}
+.task-labels{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+.tasks{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+.todos{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+.todos a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: cadetblue;
+}
+.tasks p:first-child{
+    color: deepskyblue;
+}
+.tasks p:last-child{
+    padding: 7px 15px;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 5px;
+}
+.task-action{
+    padding: 40px 0;
+}
+.task-action a:first-child{
+    padding: 7px 15px;
+    background-color: goldenrod;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.task-action a:last-child{
+    padding: 7px 15px;
+    background-color: orangered;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
+
